@@ -1,0 +1,76 @@
+
+body {
+	font-family: calibri;
+}
+
+.divlogin {
+	background-color: black;
+	border-radius: 2px;
+	left: 50%;
+	margin: auto;
+	padding-bottom: 10px;
+	padding-top: 25px;
+	position: absolute;
+	top: 50%;
+	transform: translate(-50%, -50%);
+	width: 400px;
+	-ms-transform: translate(-50%, -50%);
+}
+
+.login {
+	background-color: black;
+	border: 0px;
+	height: 360px;
+	width: 400px;
+}
+
+.bgred {
+	background-color: red;
+	width: 25px;
+}
+
+.signlabel {
+	color: #FBFBFB;
+	font-size: 40px;
+	font-weight: bold;
+	padding-left: 25px;
+}
+
+input[type="text"], input[type="password"] {
+	background-color: black;
+	border: 0px;
+	color: gray;
+	font-size: 15px;
+	padding: 8px;
+	margin-left: 17px;
+}
+
+#btnsignin {
+	background-color: red;
+	border: 0px;
+	border-radius: 1px;
+	color: #FBFBFB;
+	cursor: pointer;
+	font-weight: bold;
+	height: 55px;
+	width: 94%;
+}
+
+.gray {
+	color: gray;
+	font-size: 15px;
+}
+
+.red {
+	color: red;
+}
+
+@media (max-width:600px) {
+	.divlogin {
+		width: 95%;
+	}
+
+	.login {
+		width: 100%;
+	}
+}
