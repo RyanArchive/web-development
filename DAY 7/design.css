@@ -1,0 +1,79 @@
+
+/* Form */
+
+div {
+	left: 50%;
+	position: absolute;
+	top: 50%;
+	transform: translate(-50%, -50%);
+	width: 700px;
+	-ms-transform: translate(-50%, -50%);
+}
+
+.purch {
+	background-color: #E2F1FF;
+	box-shadow: 5px 10px 18px #888888;
+	border-radius: 20px;
+	font-family: 'segoe ui';
+	font-size: 16px;
+	height: 340px;
+	padding: 20px;
+}
+
+p {
+	font-weight: bold;
+	text-align: center;
+}
+
+.labels {
+	width: 140px;
+}
+
+.values {
+	width: 250px;
+}
+
+input[type="text"], select {
+	border: 1px solid black;
+	padding: 3px;
+}
+
+#productCost {
+	vertical-align: top;
+	width: 280px;
+}
+
+#cash {
+	visibility: hidden;
+}
+
+input[type="submit"] {
+	background-color: #82C3FF;
+	border: 1px solid black;
+	color: black;
+	padding: 7px 15px 7px 15px;
+}
+
+/* Output */
+
+#tblOutput {
+	font-family: 'segoe ui';
+	font-size: 16px;
+	margin-top: 20px;
+	visibility: hidden;
+}
+
+.width150 {
+	width: 150px;
+}
+
+#x {
+	background-color: white;
+	border: 0px;
+	cursor: pointer;
+	font-family: 'segoe ui';
+	font-size: 17px;
+	width: 100%;
+	margin-left: 80px;
+	visibility: hidden;
+}

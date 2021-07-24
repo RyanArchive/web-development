@@ -1,0 +1,111 @@
+<html>
+
+<head>
+	<title>Item Purchasing App</title>
+	<link rel="stylesheet" type="text/css" href="design.css">
+</head>
+
+<body onload="populate()">
+
+	<div>
+		<table border="0" class="purch" cellpadding="5" cellspacing="0">
+			<tr>
+				<td colspan="2"><p>Item Purchasing App</p></td>
+				<td id="productCost" rowspan="9">
+					<b>Product Costs:</b> <br><br>
+					Prices (Php) <br><br>
+					Apple - 20 Php <font id="applePcs">(50 pcs left)</font> <br>
+					Orange - 40 Php <font id="orangePcs">(50 pcs left)</font> <br>
+					Lemon - 50 Php <font id="lemonPcs">(50 pcs left)</font> <br>
+					Grapes - 80 Php  <font id="grapesPcs">(50 pcs left)</font> <br>
+					Banana - 90 Php <font id="bananaPcs">(50 pcs left)</font> <br>
+					Mango - 110 Php <font id="mangoPcs">(50 pcs left)</font> <br>
+					Pineapple - 120 Php <font id="pineapplePcs">(50 pcs left)</font> <br>
+					- <br>
+					- <br>
+					- <br>
+					Cash Payment - same amount <br>
+					Credit Card payment - +3% interest
+				</td>
+			</tr>
+			<tr>
+				<td class="labels">Date:</td>
+				<td class="values">
+					<input id="dateToday" size="25" type="text" disabled>
+				</td>
+			</tr>
+			<tr>
+				<td>Buyer's Name:</td>
+				<td>
+					<input id="name" oninput="text()" placeholder="Text Only" size="25" type="text">
+				</td>
+			</tr>
+			<tr>
+				<td>Product Code:</td>
+				<td>
+					<input id="prodCode" maxlength="5" oninput="num()" placeholder="5 Digits Number Only" size="25" type="text">
+				</td>
+			</tr>
+			<tr>
+				<td>Item Name:</td>
+				<td>
+					<select id="products"></select>
+				</td>
+			</tr>
+			<tr>
+				<td>Quantity:</td>
+				<td>
+					<select id="quantity"></select>
+				</td>
+			</tr>
+			<tr>
+				<td>Payment Mode:</td>
+				<td>
+					&nbsp; &nbsp;
+					<input id="payCash" onclick="cash()" name="payment" type="radio" value="Cash">Cash &nbsp; &nbsp; &nbsp; &nbsp;
+					<input id="payCard" onclick="card()" name="payment" type="radio" value="Credit Card">Credit Card
+				</td>
+			</tr>
+			<tr>
+				<td>Money/Cash:</td>
+				<td>
+					<input id="cash" maxlength="7" oninput="num()" placeholder="Number Only" size="25" type="text">
+				</td>
+			</tr>
+			<tr>
+				<td align="center" colspan="2"><input onclick="purchase()" type="submit" value="Purchase"></td>
+			</tr>
+		</table>
+
+		<table border="0" id="tblOutput" cellpadding="5" cellspacing="0">
+			<tr>
+				<td class="width150">Name:</td>
+				<td id="clientName"></td>
+				<td rowspan="5" valign="top">
+					<input id="x" onclick="x()" type="submit" value="x"></div>
+				</td>
+			</tr>
+			<tr>
+				<td>Product Code:</td>
+				<td id="productCode"></td>
+			</tr>
+			<tr>
+				<td>Payment Mode:</td>
+				<td id="paymentMode"></td>
+			</tr>
+			<tr>
+				<td>Total:</td>
+				<td id="totall"></td>
+			</tr>
+			<tr>
+				<td>Change:</td>
+				<td id="changee"></td>
+			</tr>
+		</table>
+	</div>
+
+	<script src="function.js"></script>
+
+</body>
+
+</html>
