@@ -1,0 +1,70 @@
+<html>
+
+<head>
+	<title>Calculator</title>
+	<link rel="stylesheet" type="text/css" href="calculator.css">
+</head>
+
+<body>
+
+	<div id="one">
+		<input id="firstNum" oninput="number()" placeholder="1st Number (Ony Numbers Allowed)" size="28" type="text"> &nbsp; &nbsp; &nbsp;
+		<input id="secondNum" oninput="number()" placeholder="2nd Number (Ony Numbers Allowed)" size="28" type="text"> <br><br>
+
+		<input id="add" name="operation" type="radio">Add
+		<input id="subtract" name="operation" type="radio">Subtract
+		<input id="multiply" name="operation" type="radio">Multiply
+		<input id="divide" name="operation" type="radio">Divide
+		<input id="modulo" name="operation" type="radio">Modulo <br><br>
+
+		<input onclick="compute()" type="submit" value="Compute">
+	</div>
+
+	<table id="dataTable">
+		<tr>
+			<td>
+				Addition - <font color="red">Red</font>
+			</td>
+			<td>
+				Subtraction - <font color="green">Green</font>
+			</td>
+			<td>
+				Multiplication - <font color="blue">Blue</font>
+			</td>
+			<td>
+				Division - <font color="yellow">Yellow</font>
+			</td>
+			<td>
+				Modulos - Black
+			</td>
+		</tr>
+		<tr id="headings">
+			<td>
+				<b>1st Value</b>
+			</td>
+			<td>
+				<b>2nd Value</b>
+			</td>
+			<td>
+				<b>Formula</b>
+			</td>
+			<td>
+				<b>Answer</b>
+			</td>
+			<td>
+				<b>Remarks</b>
+			</td>
+		</tr>
+	</table>
+
+	<div id="divHist">
+		<br>
+		<font id="history">History count:</font> <br>
+		<font id="positive">Positive: </font> <br>
+		<font id="negative">Negative: </font> <br>
+	<div>
+		
+	<script src="calculator.js"></script>
+
+</body>
+</html>

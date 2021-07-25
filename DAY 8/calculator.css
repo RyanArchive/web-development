@@ -1,0 +1,67 @@
+
+#one {
+	border: 1px solid black;
+	border-radius: 10px;
+	font-family: arial;
+	font-size: 12px;
+	margin: auto;
+	margin-top: 100px;
+	padding-bottom: 20px;
+	padding-top: 20px;
+	text-align: center;
+	width: 550px;
+}
+
+input[type="text"] {
+	padding: 7px;
+}
+
+input[type="submit"] {
+	background-color: #00BF6F;
+	border: 0px;
+	border-radius: 5px;
+	color: white;
+	cursor: pointer;
+	height: 40px;
+	width: 100px;
+}
+
+#dataTable {
+	border: 1px solid black;
+	border-radius: 10px;
+	font-family: arial;
+	font-size: 12px;
+	margin: auto;
+	margin-top: 50px;
+	padding: 10px;
+}
+
+#dataTable tr td {
+	border-bottom: 1px solid white;
+}
+
+#dataTable tr td:nth-child(1) {
+	width: 120px;
+}
+
+#dataTable tr td:nth-child(2) {
+	width: 120px;
+}
+
+#dataTable tr td:nth-child(3) {
+	width: 120px;
+}
+
+#dataTable tr td:nth-child(4) {
+	width: 120px;
+}
+
+#dataTable tr td:nth-child(5) {
+	width: 120px;
+}
+
+#divHist {
+	font-family: arial;
+	font-size: 12px;
+	text-align: center;
+}

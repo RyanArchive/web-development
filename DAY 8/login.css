@@ -1,0 +1,64 @@
+
+#login {
+	border: 1px solid black;
+	border-radius: 5px;
+	margin: auto;
+	margin-top: 50px;
+	padding: 10px;
+	width: 420px;
+}
+
+#table {
+	font-family: calibri;
+	font-size: 17px;
+}
+
+input[type="text"], input[type="password"], input[type="submit"] {
+	border: 1px solid #D6D6D6;
+	border-radius: 2px;
+	font-family: calibri;
+	font-size: 15px;
+	padding: 7px;
+}
+
+input[type="submit"] {
+	background-color: #F2F2F2;
+	cursor: pointer;
+}
+
+#dataTable {
+	border: 1px solid black;
+	border-radius: 7px;
+	font-family: arial;
+	font-size: 12px;
+	margin: auto;
+	margin-top: 50px;
+	padding: 10px;
+	text-align: center;
+	visibility: hidden;
+}
+
+#dataTable tr td {
+	border-bottom: 1px solid #f2f2f2;
+	border-right: 1px solid black;
+}
+
+#dataTable tr td:last-child {
+	border-right: 0;
+}
+
+#dataTable tr td:nth-child(2) {
+	width: 100px;
+}
+
+#dataTable tr td:nth-child(3) {
+	width: 100px;
+}
+
+#dataTable tr:nth-child(1) {
+	font-weight: bold;
+}
+
+#dataTable tr:nth-child(odd) {
+	background-color: #f2f2f2;
+}

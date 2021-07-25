@@ -1,0 +1,74 @@
+
+#tblCarpa {
+	font-family: arial;
+	margin: auto;
+}
+
+#title {
+	background-color: #05467E;
+	border-radius: 10px;
+	color: white;
+	font-size: 35px;
+	font-weight: bold;
+	text-align: center;
+}
+
+#one {
+	font-weight: bold;
+	height: 500px;
+	vertical-align: top;
+	width: 220px;
+}
+
+.two1, .two2 {
+	width: 240px;
+}
+
+.two1 {
+	height: 70px;
+	font-size: 27px;
+	font-weight: bold;
+}
+
+.selects {
+	padding: 7px;
+	width: 180px;
+}
+
+.height70 {
+	height: 70px;
+}
+
+.button1 {
+	background-color: #1DA1F2;
+	border: 0px;
+	border-radius: 2px;
+	font-size: 17px;
+	height: 60px;
+	color: white;
+	cursor: pointer;
+	width: 130px;
+}
+
+#three {
+	border: 1px solid black;
+	border-radius: 10px;
+	width: 600px;
+	vertical-align: top;
+	visibility: hidden;
+}
+
+#items {
+	width: 100%;
+	padding: 10px;
+	text-align: center;
+}
+
+#close {
+	color: black;
+	text-decoration: none;
+}
+
+#summary {
+	width: 100%;
+}
